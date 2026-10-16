@@ -1,0 +1,12 @@
+{
+  "CONTRATO.md": "9d2162fa9e79f7043b27301a0afdf05b108bdb55b199496100b9afd53b553aab",
+  "README.md": "c4cbe05a48a77777da79ccc316eab658f3fa5ba093515010dc82c64b1a3c0c69",
+  "test_fila.py": "331abee1b5d3c958b77baa1f26e06a420e332a058118f0e3f7c03b89529c3b26",
+  "dados/itens.json": "5d702ae7318d5c207fa170d887f7e8140c6448c7991a905cb297c94dfa4be250",
+  "fila/apresentacao.py": "f17d4f58b6bd5e93201c9e32a204d7349368dcfa09f1dc144949f4b4012fbbe6",
+  "fila/cli.py": "20ca7de56db3aa2a2e2380da73e7aa16b04d985b10328c1ca7247a02307bcaeb",
+  "fila/consultas.py": "ea68dd09154dbe089558de762d2a1262c0d5da4d0ce5c671d1eb366ce1003f51",
+  "fila/dados.py": "fc34ad2aa0e8636da13b4c62880d329073068e51b119eb39f71ca36f198e3fb9",
+  "fila/servico.py": "0dcbb0da6a7658cbbf8cfca349ef1ec58e3623a58bfed162de5ee62febd6c81b",
+  "fila/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

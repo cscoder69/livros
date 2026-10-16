@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": "A1",
+    "titulo": "Revisar contrato",
+    "prioridade": "alta",
+    "status": "aberta"
+  },
+  {
+    "codigo": "A2",
+    "titulo": "Enviar relatório",
+    "prioridade": "alta",
+    "status": "encerrada"
+  },
+  {
+    "codigo": "A3",
+    "titulo": "Ler documentação",
+    "prioridade": "baixa",
+    "status": "aberta"
+  }
+]

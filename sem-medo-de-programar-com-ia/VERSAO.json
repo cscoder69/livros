@@ -1,0 +1,14 @@
+{
+  "livro": "SEM MEDO de programar com IA",
+  "autor": "Claudio Santos",
+  "versao_dos_materiais": "v3-2026-10-15",
+  "data": "2026-10-15",
+  "correspondencia": "22 capítulos; materiais atualizados após o PDF de leitura v2; revisão editorial 22",
+  "pasta_no_repositorio": "sem-medo-de-programar-com-ia",
+  "endereco_publico": null,
+  "licenca": "a definir pelo autor",
+  "python_arquivos": 47,
+  "ipynb_arquivos": 9,
+  "praticas_reexecutadas_na_montagem": false,
+  "colab_hospedado_conferido": false
+}
