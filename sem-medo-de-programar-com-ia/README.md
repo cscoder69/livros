@@ -2,11 +2,15 @@
 
 ## Arquivos de código que acompanham o livro
 
-Autor do livro: Claudio Santos. Materiais de estudo para os 22 capítulos do livro. Distribuição v3, de 15 de outubro de 2026.
+Autor do livro: Claudio Santos. Materiais de estudo para os 22 capítulos do livro. Distribuição v3.1, de 15 de outubro de 2026.
 
 Este pacote reúne exercícios, soluções de referência, testes, dados fictícios e roteiros de apoio. Para começar, extraia o ZIP inteiro. Mantenha juntas as pastas **`codigos`** e **`materiais`**: os caminhos indicados no livro partem desta pasta.
 
 Não é preciso instalar Git para utilizar estes arquivos. Se você recebeu o ZIP diretamente do autor, extraia-o e localize esta pasta do livro. Se estiver lendo no GitHub, volte à página inicial do repositório, escolha **Code** e depois **Download ZIP**. Após extrair o download, abra a pasta **`sem-medo-de-programar-com-ia`**. O download do repositório pode incluir materiais de outros livros; as instruções desta página se referem somente a este livro.
+
+## Endereço dos materiais
+
+A [pasta deste livro no GitHub](https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia) é a entrada para estes materiais. A [página inicial do repositório livros](https://github.com/cscoder69/livros) oferece o download em **Code → Download ZIP**. Depois de extrair, abra **`sem-medo-de-programar-com-ia`**; dentro dela estão as pastas **`codigos`** e **`materiais`**.
 
 ## Por onde começar
 

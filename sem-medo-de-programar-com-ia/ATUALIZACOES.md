@@ -1,5 +1,11 @@
 # Histórico dos materiais
 
+## v3.1 — 15 de outubro de 2026
+
+- Endereço público do repositório e da pasta do livro registrado nos guias e nas informações de versão.
+- Arquivo .gitignore incluído na atualização de envio; ele orienta o controle de versões a ignorar caches e arquivos locais.
+- Programas e exercícios preservados em relação à v3. Nenhuma nova execução integral das práticas nesta atualização.
+
 ## v3 — 15 de outubro de 2026
 
 - Apresentação preparada para a pasta deste livro em um repositório que poderá reunir outros títulos.
