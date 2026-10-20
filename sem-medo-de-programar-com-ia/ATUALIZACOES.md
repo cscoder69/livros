@@ -1,5 +1,9 @@
 # Histórico dos materiais
 
+## v4.3 — 20 de outubro de 2026
+
+- Conferência do Colab completada: `exercicio.ipynb` enviado do computador pelo botão “Fazer upload de notebook” e executado no serviço. Programas e notebooks não mudaram.
+
 ## v4.2 — 20 de outubro de 2026
 
 - Guias e README atualizados com a conferência no Google Colab: três notebooks executados no serviço, botões “Fazer upload de notebook” e “Executar assim mesmo” citados pelos nomes atuais. Programas e notebooks não mudaram.

@@ -52,7 +52,7 @@ Quando uma prática disser **“no navegador”** ou pedir para abrir um arquivo
 
 Quando disser **“no computador”** ou **“execução local”**, usará os arquivos **`.py`** com Python instalado. Você pode escolher esse caminho desde a primeira prática; a preparação está no guia **`PREPARAR-PYTHON.md`**. Algumas práticas posteriores, como a separação em módulos e o laboratório MCP, têm instruções locais próprias.
 
-**[CONSULTA]** **Estado da conferência desta edição:** em outubro de 2026, `codigos/capitulo-04/exercicio.ipynb`, `codigos/capitulo-04/referencia.ipynb` e `codigos/organizador/organizador-final.ipynb` foram abertos e executados no Google Colab, com os resultados esperados; os demais notebooks foram executados localmente. Na página inicial do Colab, o botão **Fazer upload de notebook** envia sua cópia. Se aparecer um aviso de que o notebook não foi criado pelo Google, clique em **Executar assim mesmo**. [Fonte: documentação do Colab](https://research.google.com/colaboratory/faq.html).
+**[CONSULTA]** **Estado da conferência desta edição:** em outubro de 2026, `codigos/capitulo-04/exercicio.ipynb`, `codigos/capitulo-04/referencia.ipynb` e `codigos/organizador/organizador-final.ipynb` foram executados no Google Colab, com os resultados esperados, inclusive o envio de `exercicio.ipynb` pelo botão descrito abaixo; os demais notebooks foram executados localmente. Na página inicial do Colab, o botão **Fazer upload de notebook** envia sua cópia. Se aparecer um aviso de que o notebook não foi criado pelo Google, clique em **Executar assim mesmo**. [Fonte: documentação do Colab](https://research.google.com/colaboratory/faq.html).
 
 ## Por onde começar
 
