@@ -1,4 +1,4 @@
-"""Oito testes dos recursos ensinados até o capítulo 8, sem módulos posteriores."""
+"""Oito testes dos recursos ensinados até o capítulo 11, sem módulos posteriores."""
 
 import unittest
 from copy import deepcopy

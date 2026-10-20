@@ -1,4 +1,4 @@
-"""Capítulo 5: prioridades e filtros, com dados em memória."""
+"""Capítulo 7: prioridades e filtros, com dados em memória."""
 
 from copy import deepcopy
 

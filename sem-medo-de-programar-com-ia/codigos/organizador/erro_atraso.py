@@ -1,4 +1,4 @@
-"""Capítulo 7: variante incorreta de propósito; não usar como solução."""
+"""Capítulo 9: variante incorreta de propósito; não usar como solução."""
 
 
 def esta_atrasada_com_erro(tarefa, hoje):

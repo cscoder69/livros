@@ -1,4 +1,4 @@
-"""Capítulo 6: prioridades, filtros e prazos, com dados em memória."""
+"""Capítulo 8: prioridades, filtros e prazos, com dados em memória."""
 
 from copy import deepcopy
 from datetime import date

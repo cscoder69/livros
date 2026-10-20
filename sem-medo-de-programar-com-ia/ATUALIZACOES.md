@@ -1,5 +1,10 @@
 # Histórico dos materiais
 
+## v4.1 — 20 de outubro de 2026
+
+- Títulos dos notebooks e comentários de abertura dos arquivos .py corrigidos para a numeração atual dos capítulos (por exemplo, “Capítulo 2 — Exercício” passou a “Capítulo 4 — Exercício”). Nenhuma regra dos programas mudou.
+- Testes, demonstrações e células dos nove .ipynb repetidos localmente; `capitulo-04/exercicio.ipynb`, `capitulo-04/referencia.ipynb` e `organizador/organizador-final.ipynb` executados no Google Colab hospedado.
+
 ## v4.0 — 20 de outubro de 2026
 
 - Pastas e arquivos renomeados para a numeração dos capítulos: `codigos/capitulo-02` → `capitulo-04`; `codigos/capitulo-03` → `capitulo-05`; `materiais/capitulo-04`, `-12`, `-14` e `-16` → `capitulo-06`, `-15`, `-18` e `-21`; notebooks do organizador `capitulo-05`, `-06`, `-07`, `-08` e `-10` → `capitulo-07`, `-08`, `-09`, `-11` e `-13`; módulos `etapa05.py` e `etapa06.py` → `etapa07.py` e `etapa08.py`; `test_etapa06.py` → `test_etapa08.py`; pastas `etapa09` e `etapa10` → `etapa12` e `etapa13`, com importações, testes e guias ajustados.

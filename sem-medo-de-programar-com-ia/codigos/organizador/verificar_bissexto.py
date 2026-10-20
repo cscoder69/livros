@@ -1,4 +1,4 @@
-"""Cenário independente do capítulo 13; não configura um agente nem MCP."""
+"""Cenário independente do capítulo 17; não configura um agente nem MCP."""
 
 from copy import deepcopy
 from datetime import date
