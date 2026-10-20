@@ -41,6 +41,6 @@ Os títulos fornecidos às funções são textos; tratar valores de outros tipos
 
 O teste de índice trata números inteiros fora da lista; não implementamos validação geral de tipos. As tarefas não persistem após encerrar a execução.
 
-Os arquivos Python e as células dos arquivos de código foram verificados localmente com Python 3.12. A abertura e a execução na interface hospedada do Colab não foram verificadas nesta edição. Você envia sua própria cópia do arquivo; não há um projeto do autor publicado no Colab. Os materiais estão no [GitHub do livro](https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia).
+Os arquivos Python e as células foram verificados com Python 3.12 no computador e, em outubro de 2026, também no Google Colab. Você envia sua própria cópia do arquivo pelo botão **Fazer upload de notebook**, na página inicial do Colab; não há um projeto do autor publicado no Colab. Os materiais estão no [GitHub do livro](https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia).
 
 O comando `python verificar.py` confere a solução de referência de `solucao.py`; não verifica automaticamente alterações feitas em `inicial.py`. Para sua tentativa, execute o arquivo modificado e compare as entradas e saídas indicadas no capítulo 4. A instalação de Python e o uso do terminal são explicados em “Como ler este livro”.

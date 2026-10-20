@@ -30,7 +30,7 @@ Abra [Google Colab](https://colab.research.google.com/) e use a opção de envio
 
 Execute de cima para baixo. Depois de editar uma definição, execute essa célula e as seguintes novamente. Reinicie a sessão e execute tudo em ordem para conferir uma execução limpa. Salve ou baixe sua cópia. As listas não persistem entre sessões.
 
-Você envia sua cópia do arquivo baixado no GitHub; não há um projeto do autor publicado no Colab. As células foram executadas em Python local. **A abertura e a execução na interface hospedada do Colab não foram verificadas nesta edição.**
+Você envia sua cópia do arquivo baixado no GitHub; não há um projeto do autor publicado no Colab. As células foram executadas em Python local e, em outubro de 2026, `organizador-final.ipynb` também foi executado no Google Colab. Se aparecer um aviso de que o notebook não foi criado pelo Google, clique em **Executar assim mesmo**.
 
 ## **[COMPUTADOR]** No computador
 

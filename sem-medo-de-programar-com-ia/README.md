@@ -52,7 +52,7 @@ Quando uma prática disser **“no navegador”** ou pedir para abrir um arquivo
 
 Quando disser **“no computador”** ou **“execução local”**, usará os arquivos **`.py`** com Python instalado. Você pode escolher esse caminho desde a primeira prática; a preparação está no guia **`PREPARAR-PYTHON.md`**. Algumas práticas posteriores, como a separação em módulos e o laboratório MCP, têm instruções locais próprias.
 
-**[CONSULTA]** **Estado da conferência desta edição:** o Colab documenta o envio de arquivos existentes, mas a abertura e a execução dos arquivos deste livro na interface do serviço ainda não foram verificadas. As conferências registradas foram locais; executar as células localmente não substitui o teste no serviço. [Fonte: documentação do Colab](https://research.google.com/colaboratory/faq.html).
+**[CONSULTA]** **Estado da conferência desta edição:** em outubro de 2026, `codigos/capitulo-04/exercicio.ipynb`, `codigos/capitulo-04/referencia.ipynb` e `codigos/organizador/organizador-final.ipynb` foram abertos e executados no Google Colab, com os resultados esperados; os demais notebooks foram executados localmente. Na página inicial do Colab, o botão **Fazer upload de notebook** envia sua cópia. Se aparecer um aviso de que o notebook não foi criado pelo Google, clique em **Executar assim mesmo**. [Fonte: documentação do Colab](https://research.google.com/colaboratory/faq.html).
 
 ## Por onde começar
 
@@ -91,7 +91,7 @@ Os dados dos exemplos são fictícios. O organizador mantém as tarefas em memó
 
 [VERSAO.json](VERSAO.json) identifica esta distribuição. [MANIFESTO-SHA256.json](MANIFESTO-SHA256.json) relaciona os arquivos e seus resumos de integridade, chamados hashes; eles ajudam a verificar se um arquivo corresponde a esta distribuição. O manifesto não contém seu próprio hash.
 
-Os materiais têm conferências locais registradas durante a preparação do livro. Na versão 4.0, depois da renomeação, todos os programas, testes e os nove arquivos `.ipynb` foram executados de novo localmente, conforme **`VERSAO.json`**. A preparação da distribuição confere a integridade e a correspondência dos arquivos; não representa nova execução de todas as práticas. A abertura e a execução na interface hospedada do Colab não foram verificadas nesta edição.
+Os materiais têm conferências locais registradas durante a preparação do livro. Na versão 4.0, depois da renomeação, todos os programas, testes e os nove arquivos `.ipynb` foram executados de novo localmente, conforme **`VERSAO.json`**. A preparação da distribuição confere a integridade e a correspondência dos arquivos; não representa nova execução de todas as práticas. Na versão 4.1, três notebooks também foram executados no Google Colab.
 
 A licença de uso desta distribuição ainda não foi definida pelo autor. Consulte as informações de versão antes de redistribuir ou incorporar os materiais a outro projeto. A ausência de uma licença não é uma autorização adicional de uso.
 

@@ -1,5 +1,9 @@
 # Histórico dos materiais
 
+## v4.2 — 20 de outubro de 2026
+
+- Guias e README atualizados com a conferência no Google Colab: três notebooks executados no serviço, botões “Fazer upload de notebook” e “Executar assim mesmo” citados pelos nomes atuais. Programas e notebooks não mudaram.
+
 ## v4.1 — 20 de outubro de 2026
 
 - Títulos dos notebooks e comentários de abertura dos arquivos .py corrigidos para a numeração atual dos capítulos (por exemplo, “Capítulo 2 — Exercício” passou a “Capítulo 4 — Exercício”). Nenhuma regra dos programas mudou.

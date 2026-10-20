@@ -33,7 +33,7 @@ Os rótulos **[GITHUB]**, **[COLAB]**, **[COMPUTADOR]**, **[CONSULTA]** e **[GIT
 
 ### Preparação
 
-Use **`PREPARAR-PYTHON.md`** para a instalação e a primeira execução local. O guia **`codigos/organizador/README.md`** ensina a sessão interativa e as importações de cada etapa. A opção pelo Colab usa arquivos enviados pelo leitor; sua interface hospedada continua sem teste nesta edição.
+Use **`PREPARAR-PYTHON.md`** para a instalação e a primeira execução local. O guia **`codigos/organizador/README.md`** ensina a sessão interativa e as importações de cada etapa. A opção pelo Colab usa arquivos enviados pelo leitor; em outubro de 2026, ela foi conferida com três notebooks do livro.
 
 ## Apoio à leitura
 
