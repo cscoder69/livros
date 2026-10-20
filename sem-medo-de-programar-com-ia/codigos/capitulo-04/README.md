@@ -8,13 +8,13 @@ Requer Python 3. Não usa bibliotecas externas, arquivos de dados ou chave de AP
 - `solucao.py`: solução de referência.
 - `verificar.py`: conferência automática da solução.
 
-## Pelo navegador
+## **[COLAB]** Pelo navegador
 
 Abra [Google Colab](https://colab.research.google.com/), entre com sua conta Google e procure no menu Arquivo (File) a opção para enviar um arquivo do computador. Selecione `exercicio.ipynb`. Execute as células de cima para baixo pelo botão de execução ao lado de cada bloco de código. Os nomes dos menus podem variar conforme o idioma e a versão do serviço.
 
 Depois de editar a função, execute novamente sua célula e as células seguintes. A célula de demonstração começa com uma lista nova para evitar acúmulo de tarefas. Salve ou baixe sua cópia modificada; os dados da lista ficam apenas na memória da sessão.
 
-## No computador, se já tiver Python
+## **[COMPUTADOR]** No computador, se já tiver Python
 
 Na pasta destes exemplos:
 
@@ -41,4 +41,6 @@ Os títulos fornecidos às funções são textos; tratar valores de outros tipos
 
 O teste de índice trata números inteiros fora da lista; não implementamos validação geral de tipos. As tarefas não persistem após encerrar a execução.
 
-Os arquivos Python e as células dos arquivos de código foram verificados localmente com Python 3.12. A importação e a execução na interface hospedada do Colab ainda precisam de conferência antes da publicação. Site e repositório público ainda não foram publicados.
+Os arquivos Python e as células dos arquivos de código foram verificados localmente com Python 3.12. A abertura e a execução na interface hospedada do Colab não foram verificadas nesta edição. Você envia sua própria cópia do arquivo; não há um projeto do autor publicado no Colab. Os materiais estão no [GitHub do livro](https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia).
+
+O comando `python verificar.py` confere a solução de referência de `solucao.py`; não verifica automaticamente alterações feitas em `inicial.py`. Para sua tentativa, execute o arquivo modificado e compare as entradas e saídas indicadas no capítulo 4. A instalação de Python e o uso do terminal são explicados em “Como ler este livro”.

@@ -1,6 +1,6 @@
-# Modelo da prática
+# Mapa de investigação da fila — capítulo 16
 
-Preencha com a base e os resultados reais. O modelo não declara execução.
+Preencha acompanhando uma cópia de estudo da pasta **`codigos/projeto-existente`**, fornecida no pacote. O mapa deve permitir seguir a consulta desde o comando até os registros selecionados. Separe o que leu no código dos resultados que conseguiu executar.
 
 - Pasta e versão.
 - Comando inicial.

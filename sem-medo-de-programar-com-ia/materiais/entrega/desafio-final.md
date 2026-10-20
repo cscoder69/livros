@@ -11,7 +11,7 @@ Exemplos do formato desejado: `0: [ ] (alta) Revisar` e `1: [x] (media) Antiga`.
 ## Preparar a tarefa
 
 - Usar uma cópia do [organizador](../../codigos/organizador/README.md) e identificar sua versão.
-- Ler a função listar_tarefas em apresentacao.py e localizar seus usos.
+- Ler a função `listar_tarefas` em **`codigos/organizador/apresentacao.py`** e localizar seus usos. No arquivo **`organizador-final.ipynb`**, a mesma função fica nas células; siga a opção escolhida no capítulo 22.
 - Escrever critérios de saída e de preservação dos dados.
 - Definir o que fica fora: cadastro, filtros, prazos, conclusão, importação e exportação não mudam.
 - Preparar o pedido à IA ou realizar diretamente a alteração e pedir revisão das diferenças.
@@ -20,7 +20,7 @@ Exemplos do formato desejado: `0: [ ] (alta) Revisar` e `1: [x] (media) Antiga`.
 
 Escolher dados que incluam lista vazia, prioridade alta, tarefa antiga sem prioridade, título com espaços e tarefa concluída. Anotar expectativas antes da execução. Conferir texto, ordem, índices e igualdade dos registros de origem antes/depois da listagem.
 
-Os testes que comparavam o texto anterior precisam refletir a nova regra de apresentação, mantendo as demais verificações. Não remover exigências apenas para passar. Conferir quais módulos os testes chamam: uma aprovação sobre etapa06.py não examina por si só a listagem modificada em apresentacao.py.
+Os testes que comparavam o texto anterior precisam refletir a nova regra de apresentação, mantendo as demais verificações. Conferir quais módulos os testes chamam: uma aprovação sobre **`etapa08.py`** não examina por si só a listagem modificada em **`apresentacao.py`**. Atualize as expectativas afetadas pela nova regra e conserve as de preservação dos dados.
 
 Repetir o percurso completo de cadastro, filtro, exportação/importação e conclusão recorrente. Comparar os dados com seus contratos; a alteração visual não autoriza mudar essas regras.
 

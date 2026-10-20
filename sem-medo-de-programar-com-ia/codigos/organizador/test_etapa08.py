@@ -4,7 +4,7 @@ import unittest
 from copy import deepcopy
 from datetime import date
 
-from etapa06 import (
+from etapa08 import (
     cadastrar_tarefa, concluir_tarefa, esta_atrasada,
     filtrar_tarefas, interpretar_prazo, listar_tarefas,
 )

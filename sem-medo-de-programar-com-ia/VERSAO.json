@@ -1,15 +1,18 @@
 {
   "livro": "SEM MEDO de programar com IA",
   "autor": "Claudio Santos",
-  "versao_dos_materiais": "v3.1-2026-10-15",
-  "data": "2026-10-15",
-  "correspondencia": "22 capítulos; materiais atualizados após o PDF de leitura v2; revisão editorial 22",
+  "versao_dos_materiais": "v4.0-2026-10-20",
+  "data": "2026-10-20",
+  "correspondencia": "22 capítulos em cinco partes; revisão 38: pastas e arquivos com a numeração dos capítulos",
   "pasta_no_repositorio": "sem-medo-de-programar-com-ia",
   "endereco_publico": "https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia",
   "licenca": "a definir pelo autor",
   "python_arquivos": 47,
   "ipynb_arquivos": 9,
-  "praticas_reexecutadas_na_montagem": false,
+  "praticas_reexecutadas_na_montagem": true,
   "colab_hospedado_conferido": false,
-  "repositorio": "https://github.com/cscoder69/livros"
+  "repositorio": "https://github.com/cscoder69/livros",
+  "escopo_verificacao_29": "Nove percursos locais, incluindo oito testes da etapa06; sem Colab hospedado, instalação limpa ou nova execução MCP.",
+  "escopo_verificacao_30": "Revisão contextual da orientação e sinalização; blocos e programas preservados; nenhuma nova execução dos programas ou do Colab hospedado.",
+  "escopo_verificacao_38": "Execução local (Python 3.12, Windows) de todas as suítes, demonstrações, verificadores, cliente MCP e células dos nove .ipynb após a renomeação; sem Colab hospedado."
 }

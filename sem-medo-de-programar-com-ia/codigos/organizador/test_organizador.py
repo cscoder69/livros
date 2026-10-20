@@ -5,8 +5,8 @@ import unittest
 from copy import deepcopy
 from datetime import date
 
-import etapa05
-import etapa06
+import etapa07
+import etapa08
 from dominio import (
     cadastrar_tarefa, concluir_tarefa, esta_atrasada, filtrar_tarefas, interpretar_prazo,
 )
@@ -17,7 +17,7 @@ from erro_atraso import esta_atrasada_com_erro
 
 class PrioridadesTests(unittest.TestCase):
     def test_padrao_e_valores_permitidos(self):
-        for modulo in (etapa05, etapa06):
+        for modulo in (etapa07, etapa08):
             for prioridade in (None, "baixa", "media", "alta"):
                 with self.subTest(modulo=modulo.__name__, prioridade=prioridade):
                     tarefas = [{"titulo": "Antiga", "concluida": False}]
@@ -31,7 +31,7 @@ class PrioridadesTests(unittest.TestCase):
                     self.assertIs(tarefas[-1]["concluida"], False)
 
     def test_recusas_preservam_lista_e_ordem_de_validacao(self):
-        for cadastrar in (etapa05.cadastrar_tarefa, etapa06.cadastrar_tarefa, cadastrar_tarefa):
+        for cadastrar in (etapa07.cadastrar_tarefa, etapa08.cadastrar_tarefa, cadastrar_tarefa):
             for inicial in ([], [{"titulo": "Antiga", "concluida": True}]):
                 for titulo, prioridade, prefixo in (
                     ("", "alta", "Informe"), ("   ", "alta", "Informe"),
@@ -44,7 +44,7 @@ class PrioridadesTests(unittest.TestCase):
                     self.assertEqual(tarefas, inicial)
 
     def test_listagem_e_conclusao_de_antigas_e_novas(self):
-        for modulo in (etapa05, etapa06):
+        for modulo in (etapa07, etapa08):
             tarefas = [{"titulo": "Antiga", "concluida": False}]
             modulo.cadastrar_tarefa(tarefas, "Nova", "alta")
             self.assertEqual(modulo.listar_tarefas(tarefas), "0: [ ] Antiga\n1: [ ] Nova")
@@ -63,7 +63,7 @@ class PrioridadesTests(unittest.TestCase):
 
 class FiltrosTests(unittest.TestCase):
     def test_combinacao_ordem_e_copias(self):
-        for filtrar in (etapa05.filtrar_tarefas, etapa06.filtrar_tarefas, filtrar_tarefas):
+        for filtrar in (etapa07.filtrar_tarefas, etapa08.filtrar_tarefas, filtrar_tarefas):
             tarefas = [
                 {"titulo": "Antiga", "concluida": False},
                 {"titulo": "Alta aberta", "concluida": False, "prioridade": "alta"},
@@ -86,7 +86,7 @@ class FiltrosTests(unittest.TestCase):
 
 class PrazosTests(unittest.TestCase):
     def test_formatos_e_calendario(self):
-        for interpretar in (etapa06.interpretar_prazo, interpretar_prazo):
+        for interpretar in (etapa08.interpretar_prazo, interpretar_prazo):
             self.assertIsNone(interpretar(None))
             self.assertEqual(interpretar("2024-02-29"), date(2024, 2, 29))
             for texto in ("2026-02-30", "2026-02-29", "20261014", "14/10/2026", "", 42):
@@ -94,7 +94,7 @@ class PrazosTests(unittest.TestCase):
                     interpretar(texto)
 
     def test_prazo_invalido_nao_cadastra(self):
-        for cadastrar in (etapa06.cadastrar_tarefa, cadastrar_tarefa):
+        for cadastrar in (etapa08.cadastrar_tarefa, cadastrar_tarefa):
             tarefas = [{"titulo": "Antiga", "concluida": False}]
             antes = deepcopy(tarefas)
             self.assertTrue(cadastrar(tarefas, "Nova", prazo="2026-02-30").startswith("Prazo"))
@@ -102,7 +102,7 @@ class PrazosTests(unittest.TestCase):
 
     def test_fronteiras_de_atraso(self):
         hoje = date(2026, 10, 14)
-        for classificar in (etapa06.esta_atrasada, esta_atrasada):
+        for classificar in (etapa08.esta_atrasada, esta_atrasada):
             for prazo, concluida, esperado in (
                 (date(2026, 10, 13), False, True),
                 (hoje, False, False), (date(2026, 10, 15), False, False),

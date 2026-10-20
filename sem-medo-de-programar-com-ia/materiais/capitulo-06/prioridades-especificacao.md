@@ -4,7 +4,7 @@ Referência didática do capítulo 6. Estado: especificada, ainda não implement
 
 ## Contexto e objetivo
 
-Base funcional: `codigos/capitulo-02/solucao.py`. As variantes com falhas do capítulo 5 não integram a base.
+Base funcional: `codigos/capitulo-04/solucao.py`. As variantes com falhas do capítulo 5 não integram a base.
 
 O organizador cadastra, lista e conclui tarefas em memória. Queremos registrar a prioridade no cadastro para uso por funcionalidades futuras.
 

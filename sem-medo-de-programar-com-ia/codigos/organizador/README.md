@@ -1,38 +1,38 @@
 # Organizador — Referências dos capítulos 7 a 22
 
-Material de estudo da primeira versão do manuscrito. Conferido localmente com Python 3.12. Não requer bibliotecas externas, conta de serviço de IA, chave de API nem acesso à rede para executar os programas Python.
+Material de estudo que acompanha o livro. Conferido localmente com Python 3.12. Não requer bibliotecas externas, conta de serviço de IA, chave de API nem acesso à rede para executar os programas Python.
 
 ## Escolha a etapa
 
 | Leitura | Arquivos | Uso |
 | --- | --- | --- |
-| Capítulo 7 | `etapa05.py`, `capitulo-05.ipynb` | Prioridades, compatibilidade e filtros. |
-| Capítulo 8 | `etapa06.py`, `capitulo-06.ipynb` | Cadastro com prazo e classificação correta de atraso. |
-| Capítulo 9 | `erro_atraso.py`, `capitulo-07.ipynb` | Comparação de uma função incorreta de propósito com a correta. |
-| Capítulo 11 | `test_etapa06.py`, `capitulo-08.ipynb` | Oito testes sobre os recursos ensinados até esta etapa, com as mesmas classes no arquivo de código e no arquivo local. |
-| Capítulo 12 | `etapa09/` | Mesmas regras da etapa06, listagem separada e oito testes que examinam os módulos refatorados. |
-| Capítulo 13 | `etapa10/`, `capitulo-10.ipynb` | Importação e exportação sem os campos de recorrência de capítulos posteriores. |
+| Capítulo 7 | `etapa07.py`, `capitulo-07.ipynb` | Prioridades, compatibilidade e filtros. |
+| Capítulo 8 | `etapa08.py`, `capitulo-08.ipynb` | Cadastro com prazo e classificação correta de atraso. |
+| Capítulo 9 | `erro_atraso.py`, `capitulo-09.ipynb` | Comparação de uma função incorreta de propósito com a correta. |
+| Capítulo 11 | `test_etapa08.py`, `capitulo-11.ipynb` | Oito testes sobre os recursos ensinados até esta etapa, com as mesmas classes no arquivo de código e no arquivo local. |
+| Capítulo 12 | `etapa12/` | Mesmas regras da etapa08, listagem separada e oito testes que examinam os módulos refatorados. |
+| Capítulo 13 | `etapa13/`, `capitulo-13.ipynb` | Importação e exportação sem os campos de recorrência de capítulos posteriores. |
 | Capítulo 14 | `dominio.py`, `organizador-final.ipynb` | Recorrência por dias e geração única da próxima ocorrência. |
 | Capítulo 15 | Código final, `consultar_contexto.py` e documentos de contexto | Busca local com indicação de origem e preparação da retomada. |
 | Capítulo 17, cenário local | `verificar_bissexto.py` | Conferência local bissexta; o laboratório completo do agente está em outro grupo de materiais. |
-| Capítulo 18 | `materiais/capitulo-14/contrato-consulta.md`, na raiz do livro | Contrato de consulta; não configura MCP. |
+| Capítulo 18 | `materiais/capitulo-18/contrato-consulta.md`, na raiz do livro | Contrato de consulta; não configura MCP. |
 | Capítulo 20 | Código final e instruções do exercício | Divisão de trabalho e conferência de integração. |
-| Capítulo 21 | `materiais/capitulo-16/roteiro-de-automacao.md`, na raiz do livro | Procedimento manual e ficha; não instala agendamento. |
+| Capítulo 21 | `materiais/capitulo-21/roteiro-de-automacao.md`, na raiz do livro | Procedimento manual e ficha; não instala agendamento. |
 | Capítulo 22 | `demo.py`, suíte local e arquivo de código final | Percurso de integração e entrega. |
 
-A versão modular inclui os recursos finais. Ela não representa o estado do projeto antes da introdução desses recursos. As etapas 5 e 6 são cópias didáticas independentes para preservar a progressão. A reorganização dos capítulos avançados não renomeou essas etapas nem os arquivos de código; o mapa acima identifica a leitura atual. Os caminhos de materiais complementares se referem ao pacote completo do livro, não apenas ao ZIP de código.
+A versão modular inclui os recursos finais. Ela não representa o estado do projeto antes da introdução desses recursos. `etapa07.py` e `etapa08.py` são cópias didáticas independentes para preservar a progressão. O número de cada arquivo ou pasta corresponde ao capítulo em que ele é usado. Os caminhos de materiais complementares se referem ao pacote completo do livro, não apenas ao ZIP de código.
 
-As pastas `etapa09` e `etapa10` também são versões separadas. Execute seus testes em processos próprios, dentro de cada pasta, para não misturar módulos de mesmo nome. O capítulo 13 tem três testes locais adicionais. As duas suítes da pasta principal continuam somando 23 testes.
+As pastas `etapa12` e `etapa13` também são versões separadas. Execute seus testes em processos próprios, dentro de cada pasta, para não misturar módulos de mesmo nome. O capítulo 13 tem três testes locais adicionais. As duas suítes da pasta principal continuam somando 23 testes.
 
-## Pelo navegador
+## **[COLAB]** Pelo navegador
 
 Abra [Google Colab](https://colab.research.google.com/) e use a opção de envio do arquivo de código. Escolha o arquivo `.ipynb` da etapa. Cada arquivo de código contém suas próprias definições e pode executar sem importar os arquivos `.py` do computador.
 
 Execute de cima para baixo. Depois de editar uma definição, execute essa célula e as seguintes novamente. Reinicie a sessão e execute tudo em ordem para conferir uma execução limpa. Salve ou baixe sua cópia. As listas não persistem entre sessões.
 
-As células foram executadas em Python local. **A conferência da importação e execução na interface hospedada do Colab continua pendente antes da publicação.**
+Você envia sua cópia do arquivo baixado no GitHub; não há um projeto do autor publicado no Colab. As células foram executadas em Python local. **A abertura e a execução na interface hospedada do Colab não foram verificadas nesta edição.**
 
-## No computador
+## **[COMPUTADOR]** No computador
 
 Abra um terminal na pasta destes arquivos, com Python instalado, e execute:
 
@@ -41,9 +41,32 @@ python demo.py
 python -m unittest -v test_organizador.py
 ```
 
-Para conferir somente a etapa do capítulo 11, execute `python -m unittest -v test_etapa06.py`. Essa suíte usa `etapa06.py` e não importa a referência final com recorrência e importação.
+Para conferir somente a etapa do capítulo 11, execute `python -m unittest -v test_etapa08.py`. Essa suíte usa `etapa08.py` e não importa a referência final com recorrência e importação.
 
-`etapa05.py` e `etapa06.py` contêm definições, sem uma demonstração automática ao serem executadas diretamente. Para experimentar essas etapas no navegador, use os arquivos `.ipynb` indicados na tabela; no computador, importe as funções em uma sessão Python.
+`etapa07.py` e `etapa08.py` contêm definições, sem uma demonstração automática ao serem executadas diretamente. Para experimentar essas etapas no navegador, use os arquivos `.ipynb` indicados na tabela; no computador, importe as funções em uma sessão Python.
+
+## **[COMPUTADOR]** Experimentar as funções localmente
+
+A instalação de Python e o uso do terminal são explicados em “Como ler este livro”. O livro usa `python` nos comandos; substitua pelo comando da instalação que você conferiu, se necessário.
+
+Para os exemplos dos capítulos 7 e 8, abra o terminal na pasta `codigos/organizador` e execute `python`, sem um nome de arquivo. Isso abre uma **sessão interativa**: Python mostra o sinal `>>>` e passa a receber instruções da linguagem, uma por vez. O sinal é exibido pelo programa; não o copie. Para o capítulo 7, digite:
+
+```python
+from etapa07 import cadastrar_tarefa, concluir_tarefa, listar_tarefas, filtrar_tarefas
+```
+
+Agora execute as chamadas Python do capítulo 7 nessa mesma sessão. Para passar ao capítulo 8, saia com `exit()` e abra uma sessão nova na mesma pasta. Importe as funções dessa versão e o tipo de data:
+
+```python
+from datetime import date
+from etapa08 import cadastrar_tarefa, concluir_tarefa, listar_tarefas, filtrar_tarefas, interpretar_prazo, esta_atrasada
+```
+
+Você pode então executar as chamadas do capítulo 8. As instruções sem `print()` podem devolver um valor mostrado pela própria sessão; num arquivo `.py`, use `print()` quando quiser exibir esse retorno. Para sair da sessão, digite `exit()`. Comandos como `python -m unittest` pertencem ao terminal, depois de sair de `>>>`.
+
+Se preferir guardar uma experiência, crie um arquivo `minha_pratica.py` na pasta correspondente, coloque as importações no início e as chamadas abaixo. Salve e execute `python minha_pratica.py` no terminal. Esse arquivo será criado por você; não é um arquivo fornecido no pacote. Evite nomes como `datetime.py`, `json.py` ou o nome de um módulo que será importado, pois podem fazer o Python carregar sua cópia no lugar do módulo pretendido.
+
+Para os capítulos 13 e 14, mude de versão em uma sessão nova. No 13, abra o terminal em `codigos/organizador/etapa13` e importe `from persistencia import importar_json, exportar_json`. No 14, abra-o na pasta principal `codigos/organizador`, importe `from dominio import cadastrar_tarefa, concluir_tarefa` e, se usar datas diretamente, `from datetime import date`. Não reutilize uma sessão que já carregou módulos de outra etapa.
 
 ## Saída da demonstração final
 
@@ -87,8 +110,8 @@ O pacote tem dados apenas em memória. Para estudar gravação em disco ou servi
 
 ## Busca local do capítulo 15
 
-Na pasta principal, execute `python consultar_contexto.py proxima_gerada` e depois `python consultar_contexto.py concluir_tarefa`. O script mostra correspondências em dominio.py, persistencia.py e test_organizador.py, com arquivo e linha. Não altera arquivos, interpreta o significado ou consulta um modelo. Não depende da pasta em que o terminal começou para localizar esses três arquivos: usa sua própria localização. Sem correspondências não significa ausência em todo o projeto. Leia os blocos completos e confronte a regra R03; o roteiro complementar fica em materiais/capitulo-12, no pacote completo do livro.
+Na pasta principal, execute `python consultar_contexto.py proxima_gerada` e depois `python consultar_contexto.py concluir_tarefa`. O script mostra correspondências em dominio.py, persistencia.py e test_organizador.py, com arquivo e linha. Não altera arquivos, interpreta o significado ou consulta um modelo. Não depende da pasta em que o terminal começou para localizar esses três arquivos: usa sua própria localização. Sem correspondências não significa ausência em todo o projeto. Leia os blocos completos e confronte a regra R03; o roteiro complementar fica em materiais/capitulo-15, no pacote completo do livro.
 
 ## Novos grupos na sequência atual
 
-Capítulo 16 usa ../projeto-existente; capítulo 17 inclui ../laboratorio-agente; capítulo 19 usa ../integracao-mcp. Cada grupo tem guia próprio. Os nomes capitulo-05.ipynb até capitulo-10.ipynb e as etapas 05/06/09/10 são históricos: acompanhe as leituras atuais 7/8/9/11/12/13 conforme a tabela deste guia. O arquivo de código final corresponde à referência introduzida no capítulo 14.
+Capítulo 16 usa ../projeto-existente; capítulo 17 inclui ../laboratorio-agente; capítulo 19 usa ../integracao-mcp. Cada grupo tem guia próprio. Os nomes dos arquivos e pastas acompanham a numeração dos capítulos: `capitulo-07.ipynb` e `etapa07.py` pertencem ao capítulo 7, e assim por diante. O arquivo de código final corresponde à referência introduzida no capítulo 14.

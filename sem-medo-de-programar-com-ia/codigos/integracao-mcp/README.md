@@ -2,12 +2,12 @@
 
 Python 3.12, com a biblioteca oficial `mcp` 2.3.0, parte do conjunto de componentes de desenvolvimento chamado SDK. Um programa cliente envia pedidos e outro programa, o servidor, oferece a consulta. `stdio` é a comunicação pela entrada e saída desses programas. Não exige modelo conectado, chave de API ou conta pessoal. Dados fictícios e consulta; nenhum serviço publicado.
 
-Na pasta destes arquivos, em Windows:
+**[COMPUTADOR]** Na pasta destes arquivos, em Windows:
 
 ```text
 python -m venv .venv
-.venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\python.exe cliente_verificacao.py
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe cliente_verificacao.py
 ```
 
 O primeiro comando cria um ambiente virtual na pasta `.venv`, separando os pacotes desta prática; o segundo usa `pip` para instalar os componentes listados em `requirements.txt`; o terceiro executa o cliente. Essa separação de pacotes não restringe o acesso do programa aos arquivos do computador.
