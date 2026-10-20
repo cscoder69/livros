@@ -10,7 +10,7 @@ Requer Python 3. Não usa bibliotecas externas, arquivos de dados ou chave de AP
 
 ## **[COLAB]** Pelo navegador
 
-Abra [Google Colab](https://colab.research.google.com/), entre com sua conta Google e procure no menu Arquivo (File) a opção para enviar um arquivo do computador. Selecione `exercicio.ipynb`. Execute as células de cima para baixo pelo botão de execução ao lado de cada bloco de código. Os nomes dos menus podem variar conforme o idioma e a versão do serviço.
+Abra [Google Colab](https://colab.research.google.com/), entre com sua conta Google, clique em **Fazer upload de notebook** e selecione `exercicio.ipynb`. Com um notebook já aberto, a mesma opção fica no menu Arquivo. Execute as células de cima para baixo pelo botão de execução ao lado de cada bloco de código. Os nomes dos menus podem variar conforme o idioma e a versão do serviço.
 
 Depois de editar a função, execute novamente sua célula e as células seguintes. A célula de demonstração começa com uma lista nova para evitar acúmulo de tarefas. Salve ou baixe sua cópia modificada; os dados da lista ficam apenas na memória da sessão.
 
@@ -35,7 +35,7 @@ Tarefa concluída.
 0: [x] Comprar pão
 ```
 
-## Escopo e verificação editorial
+## Escopo e verificação
 
 Os títulos fornecidos às funções são textos; tratar valores de outros tipos está fora deste exercício. `strip()` também reconhece tabulações e quebras de linha como espaçamento. Títulos válidos são guardados como recebidos, sem remover seus espaços.
 
@@ -43,4 +43,4 @@ O teste de índice trata números inteiros fora da lista; não implementamos val
 
 Os arquivos Python e as células foram verificados com Python 3.12 no computador e, em outubro de 2026, também no Google Colab. Você envia sua própria cópia do arquivo pelo botão **Fazer upload de notebook**, na página inicial do Colab; não há um projeto do autor publicado no Colab. Os materiais estão no [GitHub do livro](https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia).
 
-O comando `python verificar.py` confere a solução de referência de `solucao.py`; não verifica automaticamente alterações feitas em `inicial.py`. Para sua tentativa, execute o arquivo modificado e compare as entradas e saídas indicadas no capítulo 4. A instalação de Python e o uso do terminal são explicados em “Como ler este livro”.
+O comando `python verificar.py` confere a solução de referência de `solucao.py`; não verifica automaticamente alterações feitas em `inicial.py`. Para sua tentativa, execute o arquivo modificado e compare as entradas e saídas indicadas no capítulo 4. A instalação de Python e o uso do terminal são explicados no Apêndice A do livro, “Preparar o ambiente”, e em `PREPARAR-PYTHON.md`, na pasta principal destes materiais.

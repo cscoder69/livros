@@ -47,7 +47,7 @@ Para conferir somente a etapa do capítulo 11, execute `python -m unittest -v te
 
 ## **[COMPUTADOR]** Experimentar as funções localmente
 
-A instalação de Python e o uso do terminal são explicados em “Como ler este livro”. O livro usa `python` nos comandos; substitua pelo comando da instalação que você conferiu, se necessário.
+A instalação de Python e o uso do terminal são explicados no Apêndice A do livro, “Preparar o ambiente”, e em `PREPARAR-PYTHON.md`, na pasta principal destes materiais. O livro usa `python` nos comandos; substitua pelo comando da instalação que você conferiu, se necessário.
 
 Para os exemplos dos capítulos 7 e 8, abra o terminal na pasta `codigos/organizador` e execute `python`, sem um nome de arquivo. Isso abre uma **sessão interativa**: Python mostra o sinal `>>>` e passa a receber instruções da linguagem, uma por vez. O sinal é exibido pelo programa; não o copie. Para o capítulo 7, digite:
 

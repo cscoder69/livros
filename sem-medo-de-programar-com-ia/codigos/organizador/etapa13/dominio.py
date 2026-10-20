@@ -1,4 +1,4 @@
-"""Capítulo 8: prioridades, filtros e prazos, com dados em memória."""
+"""Regras do organizador usadas pela importação do capítulo 13."""
 
 from copy import deepcopy
 from datetime import date

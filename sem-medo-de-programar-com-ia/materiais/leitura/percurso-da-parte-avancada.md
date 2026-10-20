@@ -40,4 +40,4 @@ Leia o trecho indicado, aplique-o a um exemplo e volte à tarefa. Se faltar um c
 
 ## Como avaliar se o percurso ajuda
 
-No [roteiro de clareza](roteiro-de-clareza.md), registre onde parou, o que conseguiu explicar depois e se encontrou a próxima ação sem ajuda. As pausas são uma proposta editorial; ainda não houve teste com participantes que demonstre redução de esforço ou melhora de aprendizagem.
+No [roteiro de clareza](roteiro-de-clareza.md), registre onde parou, o que conseguiu explicar depois e se encontrou a próxima ação sem ajuda.

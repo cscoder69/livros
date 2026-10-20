@@ -7,7 +7,7 @@ Modelo de preparação. Não configura uma rotina agendada ou um serviço.
 - Gatilho inicial: solicitação manual após uma alteração na cópia de estudo.
 - Entrada: identificação da cópia e pasta `codigos/organizador`.
 - Comando: `python -m unittest discover -p "test_*.py" -v`.
-- Quantidade esperada nesta versão: 23 métodos na pasta principal. Etapas09 e10 têm conferências próprias.
+- Quantidade esperada nesta versão: 23 métodos na pasta principal. As pastas `etapa12` e `etapa13` têm conferências próprias.
 - Ação permitida: executar e relatar. Não editar, instalar dependências ou publicar.
 - Resultado: registrar pasta, comando, base, quantidade executada, falhas, erros, ignorados e pendências.
 

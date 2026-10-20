@@ -1,21 +1,11 @@
 {
   "livro": "SEM MEDO de programar com IA",
   "autor": "Claudio Santos",
-  "versao_dos_materiais": "v4.3-2026-10-20",
+  "versao_dos_materiais": "v4.4-2026-10-20",
   "data": "2026-10-20",
-  "correspondencia": "22 capítulos em cinco partes; revisão 38: pastas e arquivos com a numeração dos capítulos",
+  "capitulos": "22 capítulos em cinco partes",
   "pasta_no_repositorio": "sem-medo-de-programar-com-ia",
   "endereco_publico": "https://github.com/cscoder69/livros/tree/main/sem-medo-de-programar-com-ia",
-  "licenca": "a definir pelo autor",
-  "python_arquivos": 47,
-  "ipynb_arquivos": 9,
-  "praticas_reexecutadas_na_montagem": true,
-  "colab_hospedado_conferido": true,
   "repositorio": "https://github.com/cscoder69/livros",
-  "escopo_verificacao_29": "Nove percursos locais, incluindo oito testes da etapa06; sem Colab hospedado, instalação limpa ou nova execução MCP.",
-  "escopo_verificacao_30": "Revisão contextual da orientação e sinalização; blocos e programas preservados; nenhuma nova execução dos programas ou do Colab hospedado.",
-  "escopo_verificacao_38": "Execução local (Python 3.12, Windows) de todas as suítes, demonstrações, verificadores, cliente MCP e células dos nove .ipynb após a renomeação; sem Colab hospedado.",
-  "escopo_verificacao_41": "Títulos e comentários dos notebooks e arquivos .py passaram a citar a numeração atual dos capítulos (antes citavam a antiga). Testes, demonstrações e células dos nove .ipynb repetidos localmente; três notebooks executados também no Google Colab hospedado.",
-  "escopo_verificacao_colab": "Em 20/10/2026, exercicio.ipynb e referencia.ipynb (capítulo 4) e organizador-final.ipynb foram executados no Google Colab com as saídas esperadas; exercicio.ipynb também foi enviado do computador pelo botão “Fazer upload de notebook” e executado.",
-  "escopo_verificacao_mcp_aplicacoes": "Claude Code 2.1.241: servidor registrado e consulta respondida pela IA com a ferramenta. Claude Desktop 2.42304.2.0: configuração do capítulo 19 lida, servidor iniciado e ferramenta listada."
+  "licenca": "a definir pelo autor"
 }
